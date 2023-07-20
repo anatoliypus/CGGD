@@ -3,6 +3,7 @@
 #include "resource.h"
 
 #include <iostream>
+#include <omp.h>
 #include <linalg.h>
 #include <memory>
 #include <random>
