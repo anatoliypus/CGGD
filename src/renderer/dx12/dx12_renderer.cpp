@@ -334,6 +334,7 @@ void cg::renderer::dx12_renderer::create_pso(const std::string& shader_name)
 					&pso_desc,
 					IID_PPV_ARGS(&pipeline_state)
 	));
+}
 
 void cg::renderer::dx12_renderer::create_resource_on_upload_heap(ComPtr<ID3D12Resource>& resource, UINT size, const std::wstring& name)
 {
